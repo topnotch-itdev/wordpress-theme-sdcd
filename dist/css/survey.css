@@ -1,0 +1,52 @@
+.survey-rating {
+    max-width: 640px;
+    margin: 10px;
+    clear: both;
+}
+
+.survey-rating .rate-area {
+    float: left;
+    border-style: none;
+    margin-bottom: 20px;
+}
+
+.survey-rating .rate-area:not(:checked) > input {
+    position: relative;
+    clip: rect(0,0,0,0);
+    display: none;
+}
+
+.survey-rating .rate-area label {
+    font-family: avenir-next,Arial,sans-serif !important;
+    font-size: 1em;
+    line-height: 1.6em;
+    text-align: center;
+    vertical-align: middle;
+
+    float: left;
+    width: 2em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    color: #767d7f;
+    border: 1px solid;
+    padding: 0.2em;
+    margin-right: 0.5em !important;
+    margin-bottom: 0.5em !important;
+}
+
+.survey-rating .rate-area input:checked + label {
+    background-color: #f2933f;
+    border: 1px solid #f2933f;
+    color: white;
+}
+
+.survey-rating .legend {
+    clear: both;
+    font-size: 0.8em;
+}
+
+
+.form-group {
+    clear: both;
+}

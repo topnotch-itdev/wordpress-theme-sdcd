@@ -1,0 +1,766 @@
+
+.loading {
+    display: none;
+    width: 268px;
+    height: 52px;
+    background: #F3F8FF;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 900;
+}
+.loading img {
+    display: block;
+    margin: 6px auto !important;
+}
+
+
+.sidebar-container input {
+    background: #F3F8FF;
+    width: 333px;
+    height: 41px;
+    border-radius: 5px;
+    border: none;
+    margin: 3px;
+    color: #788EBF;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.sidebar-container input:disabled {
+    background: #E8F0FC;
+    font-size: 14px;
+}
+.steps-inputcode #first_address, 
+.steps-inputcode #second_address {
+    font-size: 14px;
+}
+
+.sidebar-container input:focus {
+    outline: none;
+    /*box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
+}
+
+.sidebar-container p, 
+.sidebar-container input, 
+.sidebar-container button, 
+.sidebar-container textarea, 
+.sidebar-container label {
+    font-family: 'Mulish';
+    text-transform: initial;
+}
+
+.sidebar-container .steps-footer button:hover {
+    background-color: #2F80ED;
+}
+
+.sidebar-container hr {
+    width: auto;
+    border: 1px solid #F3F8FF;
+    margin-top: 0;
+}
+
+.sidebar-container img {
+    width: auto !important;
+}
+
+
+.sidebar-container .d-flex {
+    display: flex;
+}
+
+.sidebar-container .text-center {
+    text-align: center;
+}
+
+.sidebar-container .text-upper {
+    text-transform: capitalize; 
+}
+
+.sidebar-container .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px !important;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+    margin: 1.8rem 1.0rem 1.0rem 1.5rem;
+}
+
+.sidebar-container .check-next {
+    background-image: url('../imgs/check_next.svg');
+    width: 35px;
+    height: 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+.sidebar-container .empty-check {
+    border: 1px solid red;
+}
+
+/* ====================== Common style ====================== */
+
+
+
+
+
+.sidebar-container .steps-body {
+    position: absolute;
+    width: 100%;
+    max-width: 410px;
+    min-height: 620px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 15px rgba(4, 32, 95, 0.2);
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+}
+  
+.sidebar-container .steps-body.js-active {
+    height: auto;
+    opacity: 1;
+    visibility: visible;
+}
+
+.sidebar-container .steps-content {
+    margin: 12px 22px 22px 22px;
+}
+
+.sidebar-container .steps-inputcode .steps-content>img {
+    margin-top: -26px !important;
+    margin-bottom: -10px !important;
+}
+
+.sidebar-container .steps-footer {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar-container .steps-footer button {
+    width: 268px;
+    height: 52px;
+    background: #18A754;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 800;
+}
+
+.sidebar-container .steps_number img {
+    height: 40px;
+    margin-top: -5px;
+}
+
+.sidebar-container .steps-inputcode input[name="second_address"] {
+    margin-top: 17px;
+}
+
+.sidebar-container .steps-inputcode .code-group img {
+	margin-left: 10px;
+}
+
+
+/* For Select a Vehicle Panel */
+
+.steps-header.d-flex {
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+    height: 64px;
+}
+
+.steps-header img {
+    width: 37px;
+    height: 37px;
+    margin-top: 18px;
+    margin-right: 0 !important;
+}
+
+.steps-content .form-check-input {
+    display: none;
+}
+
+.sidebar-container .select-vehicle .steps-content {
+	margin: 12px 22px 15px 22px;
+}
+.select-vehicle .steps-content .form-check {
+    position: relative;
+    display: inline-flex;
+    width: auto;
+    margin: 0 7px 0 7px;
+}
+
+.steps-content .form-check-label p {
+    font-weight: 400;
+    font-size: 12px !important;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+.select-vehicle .vahicle-column {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.vehicle-icon {
+    width: 104px;
+    height: 104px;
+    border-radius: 30px;
+    background: #F3F8FF;
+    display: block;
+}
+
+.vehicle-icon-checked {
+    background: #18A754;
+    box-shadow: rgb(24 167 84) 0px 6px 12px -2px, rgb(24 167 84) 0px 3px 7px -3px;
+    border-radius: 30px;
+}
+
+.motor-cycle {
+    background-image: url('../imgs/motorcycle.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.motor-cycle-checked, .motor-cycle:hover {
+    background-image: url('../imgs/motorcycle_white.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.small-van {
+    background-image: url('../imgs/small_van.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.small-van-checked, .small-van:hover {
+    background-image: url('../imgs/small_van_white.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.large-van {
+    background-image: url('../imgs/large_van.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.large-van-checked, .large-van:hover {
+    background-image: url('../imgs/large_van_white.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.lift-van {
+    background-image: url('../imgs/lutton_taillift_van.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.lift-van-checked, .lift-van:hover {
+    background-image: url('../imgs/lutton_taillift_van_white.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.extra-large-van {
+    background-image: url('../imgs/extra_large.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.extra-large-van-checked, .extra-large-van:hover {
+    background-image: url('../imgs/extra_large_hover.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.lorry {
+    background-image: url('../imgs/lorry.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.lorry-checked, .lorry:hover {
+    background-image: url('../imgs/lorry_white.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.refriger-van {
+    background-image: url('../imgs/refrigerated_van.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.refriger-van-checked, .refriger-van:hover {
+    background-image: url('../imgs/refrigerated_van_white.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.notsure-van {
+    background-image: url('../imgs/notsure.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.notsure-van-checked, .notsure-van:hover {
+    background-image: url('../imgs/notsure_white.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Pick a Delivery Date */
+
+.pick-date .steps-content {
+    margin-top: 13px;
+}
+
+.pick-date .steps-content .form-check {
+    width: 374px;
+    height: 40px;
+    background: #F3F8FF;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    line-height: 2.5rem;
+    display: inline-flex;
+    justify-items: center;
+}
+
+.pick-date .steps-content .form-check label {
+    font-weight: 700;
+    margin-left: 120px;
+}
+
+.pick-date .steps-content .form-check>input[type="radio"] {
+    display: none;
+}
+
+.pick-date .steps-content .form-check>input[type="radio"]+*::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 0.3rem;
+    border-color: transparent;
+    background: radial-gradient(#FFFFFF 0%, #FFFFFF 45%, transparent 50%, transparent);
+	background-repeat: none;
+    transform: translate(200px, 0);
+    bottom: 4px;
+    position: relative;
+}
+
+.pick-date .steps-content .form-check>input[type="radio"]:checked+* {
+    color: white;
+    text-align: center;
+    line-height: 2.5rem;
+    margin-left: 137px;
+}
+
+.pick-date .steps-content .form-check>input[type="radio"]:checked+*::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 0.25rem;
+    border-color: white;
+    background: radial-gradient(#18A754 0%, #18A754 45%, transparent 50%, transparent);
+    transform: translate(192px, 0);
+    bottom: 3px;
+    position: relative;
+}
+
+.pick-date .steps-content input:focus, .pick-date .steps-content input:hover {
+    box-shadow: none !important;
+    background: #18A754 !important;
+    border-radius: 5px;
+}
+
+.pick-date .steps-footer button {
+    margin-top: 2rem;
+}
+
+.choose-date select {
+    width: 374px;
+    height: 40px;
+    background: #F3F8FF;
+    border-radius: 5px;
+    color: #788EBF;
+    border-color: #F3F8FF;
+    margin-top: 15px;
+}
+
+.choose-date select {
+    text-align: center;
+    text-align-last: center;
+}
+
+.choose-date select:focus {
+    outline: none;
+}
+
+.choose-date #pick-day {
+    margin-top: 8px;
+}
+
+.choose-date #pick-year {
+    margin-bottom: 8px;
+}
+
+.pick-date .steps-content .text-center {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+/* Style in Select time panel */
+
+.select-time .steps-content img {
+    margin: 90px 45px 69px 45px;
+}
+
+.select-time .steps-content #select-hour {
+    margin-top: 1px;
+}
+
+
+
+/* Style in Input your details panel */
+
+.steps-info .steps-footer {
+    position: relative;
+    top: 80px;
+}
+
+.steps-info .user-info input {
+    width: 347px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.steps-info textarea {
+    background: #F3F8FF;
+    min-height: 170px;
+    max-height: 170px;
+    min-width: 347px;
+    max-width: 347px;
+    border-radius: 5px;
+    border: none;
+    margin: 3px;
+    color: #788EBF;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.steps-info textarea:focus {
+    outline: none;
+}
+
+/* Style in Pice panel */
+
+.steps-price .steps-content .calc_price {
+    margin-top: -20px;
+}
+
+.steps-price .steps-content p {
+    text-align: center;
+    margin-top: 30px;
+	line-height: 1.2;
+}
+
+.steps-price .steps-content .price-description {
+    font-size: 0.9rem !important;
+}
+
+.steps-price .steps-content .calc_price p:first-child {
+    font-size: 35px;
+    font-weight: 700;
+    color: #2F80ED;
+    margin-bottom: 0;
+}
+
+.steps-price .steps-content .calc_price p:last-child {
+    margin-top: 0;
+    font-size: 16px;
+}
+
+.steps-price .thumbs-up {
+    display: block;
+    margin: 35px auto;
+    margin-left: 100px !important;
+}
+
+.steps-price .origin-address, .steps-price .dest-address {
+    font-weight: 700;
+}
+
+
+
+/* Thank you for your enquiry */
+
+.steps-thankyou .steps-header {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.steps-thankyou .ornament-left,
+.steps-thankyou .ornament-right {
+    width: 40% !important;
+    height: 63px;
+}
+
+.steps-thankyou .ornament-right {
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.steps-thankyou .steps-content img {
+    display: block;
+    margin: 0 auto;
+    width: 40px !important;
+    margin-right: auto !important;
+}
+
+.steps-thankyou .steps-content h2, 
+.steps-thankyou .steps-content p {
+    text-align: center;
+    font-family: Mulish;
+    font-style: normal;
+    margin: 20px;
+    color: black;
+    line-height: 1.8rem;
+}
+.steps-thankyou .steps-content p {
+    font-size: 14px !important; 
+}
+.steps-thankyou .steps-content h2 {
+    font-weight: 700;
+    font-size: 20px !important; 
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.steps-thankyou .enquiry-thumbs {
+    display: block;
+    margin: 0 auto;
+    margin-top: 45px;
+    margin-bottom: 40px;
+    margin-right: auto !important;
+}
+
+.steps-thankyou .steps-content {
+    margin: 12px 38px 22px 38px;
+}
+
+
+
+
+
+
+
+/* Steps slider style */
+.sidebar_form {
+    position: relative;
+}
+
+  
+
+.fadeOutEase {
+    animation: fadeOut ease 0.5s;
+    /* -webkit-animation: fadeOut ease 0.3s;
+    -moz-animation: fadeOut ease 0.3s;
+    -o-animation: fadeOut ease 0.3s;
+    -ms-animation: fadeOut ease 0.3s; */
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.fadeInLeftShort {
+    -webkit-animation-name: fadeInLeftShort;
+    animation-name: fadeInLeftShort;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInLeftShort {
+    0% {
+        -webkit-transform-origin: left;
+        transform-origin: left;
+        -webkit-transform: translate(150px, 0);
+        transform: translate(150px, 0);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform-origin: left;
+        transform-origin: left;
+        -webkit-transform: none;
+        transform: none;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInLeftShort {
+    0% {
+        -webkit-transform-origin: left;
+        transform-origin: left;
+        -webkit-transform: translate(150px, 0);
+        transform: translate(150px, 0);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform-origin: left;
+        transform-origin: left;
+        -webkit-transform: none;
+        transform: none;
+        opacity: 1;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 899.98px) {
+    
+    .vehicle-icon {
+        width: 8vh !important;
+        height: 8vh !important;
+        border-radius: 12px !important;
+    }
+}
+
+@media(max-width:1024px) {
+    
+    .sidebar-container hr, 
+    .sidebar-container .steps-inputcode .steps-content .code-group div, 
+    .steps-inputcode .steps-content .code-group div > input {
+        width: 100%;
+        font-size: 14px;
+    }
+    
+    .sidebar-container .steps-inputcode .code-group img {
+        margin-top: 15px;
+    }
+    
+    .sidebar-container .sidebar_form .steps-footer button {
+        width: 80%;
+    }
+    
+    .sidebar-container .sidebar_form .steps-body {
+        min-height: min-content;
+        padding-bottom: 35px;
+    }
+    
+    .pick-date-group .form-check, 
+    .choose-date select,
+    .sidebar-container .steps-info .user-info input {
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+    
+    .pick-date .steps-content .form-check {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .pick-date .steps-content .form-check label {
+        margin-left: 0 !important;
+    }
+    .pick-date .steps-content .form-check>input[type="radio"]+*::before, 
+    .pick-date .steps-content .form-check>input[type="radio"]:checked+*::before {
+        display: none;
+    }
+    
+    .choose-date select {
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
+    }
+    
+    .steps-info textarea {
+        min-width: 100% !important;
+        max-width: 100% !important;
+    }
+    
+    .steps-info .steps-footer {
+        top: 0;
+        margin-top: 140px;
+    }
+    
+    .steps-price .thumbs-up {
+        margin: 25px auto !important;
+    }
+    
+    .sidebar-container .title {
+        font-size: 1rem !important;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .select-time .steps-content img {
+        width: 32vh !important;
+        display: block;
+        justify-content: center;
+        margin: 80px auto;
+        padding-right: 30px;
+    }
+    
+    
+    .vehicle-icon {
+        width: 12vh;
+        height: 12vh;
+        border-radius: 20px;
+    }
+    
+    .steps-content .form-check-label p {
+        font-size: 8px !important;
+    }
+    
+    .sidebar-container .select-vehicle .steps-content {
+        margin: 12px 8px 15px 8px;
+    }
+    
+}

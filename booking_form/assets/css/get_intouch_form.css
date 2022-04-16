@@ -1,0 +1,457 @@
+.intouch-warp {
+    background: #242E4B;
+    padding-bottom: 50px;
+}
+
+.intouch-warp .intouch-container {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    padding-top: 15px;
+}
+
+.intouch-container input {
+    background: #F3F8FF;
+    width: 100%;
+    height: 41px;
+    border-radius: 5px;
+    border: none;
+    color: #788EBF;
+    padding-left: 20px;
+    font-size: 16px;
+    margin: 10px auto;
+    display: block;
+    position: relative;
+}
+
+.intouch-container input:disabled {
+    background: #E8F0FC;
+}
+
+.intouch-container input:focus {
+    outline: none;
+}
+
+.intouch-container textarea {
+    background: #F3F8FF;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+    border-radius: 5px;
+    border: none;
+    color: #788EBF;
+    padding-left: 20px;
+    font-size: 16px;
+    margin: 10px auto;
+    display: block;
+    position: relative;
+}
+
+.intouch-container textarea:focus {
+    outline: none;
+}
+
+.intouch-container p, 
+.intouch-container input, 
+.intouch-container textarea, 
+.intouch-container button, 
+.intouch-container label {
+    font-family: 'Mulish';
+}
+
+.intouch-container .steps-footer button:hover {
+    background-color: #2F80ED;
+}
+
+.intouch-container hr {
+    width: auto;
+    border: 1px solid #F3F8FF;
+    margin-top: 0;
+}
+
+.intouch-container img {
+    width: auto;
+}
+
+.intouch-container .d-flex {
+    display: flex;
+}
+
+.intouch-container .text-center {
+    text-align: center;
+}
+
+.intouch-container .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 1.0rem;
+    border-bottom: 2px solid #F3F8FF;
+    border-left: 2px solid #F3F8FF;
+    padding-bottom: 18px;
+    margin-top: -10px;
+}
+
+
+.intouch-container .empty-check {
+    border: 1px solid red;
+}
+
+.intouch-container .panel-number {
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 10px;
+    text-align: center;
+
+    color: #788EBF;
+    margin-left: 30px;
+    margin-top: 0;    
+    position: relative;
+    top: 20px;
+}
+
+.intouch-content .intouch-info,
+.intouch-content .intouch-postcode, 
+.intouch-content .intouch-vehicle {
+    width: 33.33%;
+}
+
+.get-in-touch-title {
+    margin-bottom: 20px !important;
+    line-height: 1rem;
+}
+
+
+
+
+/* ====================== Common style ====================== */
+
+
+
+.intouch-container .intouch-form .intouch-body {
+    min-height: min-content;
+    padding-bottom: 35px;
+    min-height: 320px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 15px rgba(4, 32, 95, 0.2);
+    border-radius: 20px;
+}
+
+.intouch-container .intouch-form .intouch-content {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.intouch-container .intouch-form .intouch-user-info, 
+.intouch-container .intouch-form .intouch-postinfo {
+    padding-left: 50px;
+    padding-right: 50px;
+    border-right: 2px solid #F3F8FF;
+    min-height: 200px;
+    padding-top: 5px;
+    position: relative;
+    left: 2px;
+}
+.intouch-container .intouch-form .intouch-postinfo  {
+    padding-right: 25px;
+    display: flex;
+}
+
+.intouch-container .intouch-postinfo input {
+    text-transform: capitalize;
+}
+
+
+.intouch-container .intouch-footer button {
+    width: 25%;
+    height: 52px;
+    background: #18A754;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+    margin: 0 auto;
+    display: block;
+    font-weight: 800;
+}
+.intouch-container .intouch-footer button:hover {
+    background: #2F80ED;
+}
+
+
+
+.intouch-info .intouch-info-title {
+    margin-left: 50px;
+    padding-right: 50px;
+    border-left: none;
+}
+
+
+.intouch-vehicle .intouch-header {
+    padding-right: 25px;
+}
+
+.intouch-vehicle .vehicle-column {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.intouch-vehicle .form-check>input[type="radio"] {
+    display: none;
+}
+
+.intouch-vehicle input:focus, .intouch-vehicle input:hover {
+    box-shadow: none !important;
+    background: #18A754 !important;
+    border-radius: 5px;
+}
+
+.intouch-vehicle .vehicle-column .form-check-label p {
+    width: 90px;
+    text-align: center;
+    font-size: 12px !important;
+    margin-top: 5px;
+}
+
+.intouch-vehicle .intouch-vehicle-group {
+    padding: 10px 20px;
+}
+
+.intouch-vehicle .intouch-vehicle-group .form-check {
+    margin: 5px;
+}
+
+.intouch-vehicle .intouch-vehicle-group .vehicle-icon {
+    width: 90px;
+    height: 90px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+/* Enquiry Thank you panel */
+.intouch-container .intouch-enquiry {
+    margin: 0 auto;
+    width: 60%;
+    height: 400px;
+    display: block;    
+    position: relative;
+}
+
+.intouch-container .intouch-enquiry .enquiry-header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 60px;
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.intouch-container .intouch-enquiry .enquiry-content {
+    text-align: center;
+}
+
+.intouch-container .intouch-enquiry .enquiry-content p {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.intouch-container .intouch-enquiry .ornament-left {
+    width: 30%;
+    height: 63px;
+}
+
+.intouch-container .intouch-enquiry .ornament-right {
+    width: 30%;
+    height: 63px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.intouch-container .intouch-body h2 {
+    text-align: center;
+    font-family: Mulish;
+    font-style: normal;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #333333;
+}
+.intouch-container .intouch-body p {
+    text-align: center;
+    font-family: Mulish;
+    font-style: normal;
+}
+
+.intouch-container .intouch-enquiry .enquiry-thumbs {
+    display: block;
+    width: 268px;
+    position: relative;
+    bottom: 50%;
+    margin: 0 auto;
+}
+
+.intouch-body .intouch-check-desk {
+    width: 110px;
+    padding: 30px;
+    display: block;
+    float: right;
+}
+
+.enquiry-container, 
+.intouch-enquiry .intouch-check-mobile {
+    display: none;
+}
+
+
+
+.intouch-container .intouch-form .intouch-postinfo div {
+    padding-right: 10px;
+    width: 100%;
+}
+
+
+
+@media (max-width: 768px) { 
+    
+    .intouch-content .intouch-info,
+    .intouch-content .intouch-postcode, 
+    .intouch-content .intouch-vehicle {
+        width: 100%;
+    }
+
+    .intouch-warp .intouch-container {
+        width: 90%;
+    }
+
+    .intouch-container .intouch-form .intouch-content {
+        display: block;
+    }
+    .intouch-enquiry .intouch-check-mobile {
+        display: block;
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 40px;
+    }
+
+    .intouch-container .panel-number,
+    .intouch-body .intouch-check-desk {
+        display: none;
+    }
+
+    .intouch-container input, 
+    .intouch-container textarea {
+        width: 100%;
+        padding-left: 10px;
+        font-size: 12px;
+    }
+
+    .intouch-container .title {
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-top: 0;
+        padding-right: 0;
+        border-left: none;
+    }
+    .intouch-info .intouch-info-title {
+        padding-top: 15px !important;
+    }
+
+    .intouch-container .intouch-form .intouch-user-info {
+        padding-left: 25px;
+        padding-right: 25px;
+        min-height: auto;
+        padding-bottom: 20px;
+    } 
+    .intouch-container .intouch-form .intouch-postinfo {
+        padding-left: 25px;
+        padding-right: 25px;
+        display: flex;
+    }
+    
+    .intouch-container .intouch-form .intouch-postinfo div {
+        padding-right: 10px;
+        width: 100%;
+    }
+
+    .intouch-vehicle .intouch-vehicle-group .vehicle-icon {
+        width: 16vw !important;
+        height: 16vw !important;
+        border-radius: 15px;
+    }
+    .intouch-vehicle .vehicle-column .form-check-label p {
+        width: 16vw !important;
+        font-size: 8px !important;
+    }
+
+    .intouch-container .intouch-footer button {
+        width: 50vw;
+    }
+
+
+
+    .enquiry-container .enquiry-header {
+        margin-left: 30px;
+        margin-right: 30px;
+        display: flex;
+        justify-content: space-between;
+        top: 0 !important;
+        padding-top: 10px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .intouch-container .intouch-enquiry .enquiry-content {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .intouch-container .intouch-enquiry .enquiry-thumbs {
+        width: auto;
+        height: auto;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .intouch-container .intouch-enquiry {
+        width: auto;
+        height: auto;
+    }
+    
+    .intouch-container .intouch-body h2 {
+        line-height: 22px;
+        margin-bottom: 15px;
+    }
+    
+    .intouch-container .intouch-enquiry .enquiry-content p {
+        line-height: 22px;
+    }
+
+}
+
+
+@media (min-width: 769px) and (max-width: 1198.98px) { 
+
+    .intouch-container input {
+        width: 100% !important;
+    }
+
+    .intouch-vehicle .intouch-vehicle-group .vehicle-icon {
+        width: 65px;
+        height: 65px;
+        border-radius: 10px;
+    }
+    .intouch-vehicle .vehicle-column .form-check-label p {
+        width: 65px;
+    }
+}
+
